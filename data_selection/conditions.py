@@ -62,3 +62,7 @@ print(df[df["Age"]>25])
 print("\n--------------------------------")
 
 print(df[(df["Age"] > 25) & (df["Price"] > 50000)]) #notice the syntax
+
+
+
+#notice that these conditions do ot return a single row, they return all the corresponding values from the dataframe which satisfies the given condition..
