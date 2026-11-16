@@ -45,6 +45,9 @@ data = {
 
 df = pd.DataFrame(data)
 
+#accesing single column: 
+print("age: \n",df["Age"])
+
 
 #for applying conditions on columns and getting desired values  [like SQL queries] , we have 2 ways:
 
